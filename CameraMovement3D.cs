@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraMovement3D : MonoBehaviour
 {
-    public Transform target;//旋转的目标
-    public float xSpeed = 200;//控制y轴上的旋转速度，如速度为0，则禁用y轴旋转
-    public float ySpeed = 200;//控制y轴上的旋转速度，如速度为0，则禁用y轴旋转
+    public Transform target;
+    public float xSpeed = 200;
+    public float ySpeed = 200;
     public float mSpeed = 10;
     public float yMinLimit = -50;
     public float yMaxLimit = 50;
